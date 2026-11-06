@@ -1,0 +1,7 @@
+build/
+build_msvc/
+engine
+engine.exe
+engine_dbg
+*.o
+*.obj

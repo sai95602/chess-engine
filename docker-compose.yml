@@ -1,0 +1,10 @@
+services:
+  chess-engine:
+    build: .
+    image: chess-engine:latest
+    ports:
+      - "8080:8080"
+    environment:
+      THREADS: "4"
+      HASH: "256"
+    restart: unless-stopped
